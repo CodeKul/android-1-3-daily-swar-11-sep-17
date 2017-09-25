@@ -10,7 +10,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/applib" />
+            <option value="$PROJECT_DIR$/layouts" />
+            <option value="$PROJECT_DIR$/login" />
             <option value="$PROJECT_DIR$/sampleapp" />
+            <option value="$PROJECT_DIR$/whatsappscreen" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
