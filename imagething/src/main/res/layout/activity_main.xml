@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codekul.imagething.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgCrd"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:onClick="onImgClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/btnBoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:text="Boy"
+        app:layout_constraintStart_toStartOf="@+id/imgCrd"
+        app:layout_constraintTop_toBottomOf="@+id/imgCrd" />
+
+    <Button
+        android:id="@+id/btnBus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:text="Bus"
+        app:layout_constraintEnd_toStartOf="@+id/btnCycle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnBoy"
+        app:layout_constraintTop_toBottomOf="@+id/imgCrd" />
+
+    <Button
+        android:id="@+id/btnCycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginTop="56dp"
+        android:text="Cycle"
+        app:layout_constraintEnd_toEndOf="@+id/imgCrd"
+        app:layout_constraintTop_toBottomOf="@+id/imgCrd" />
+</android.support.constraint.ConstraintLayout>

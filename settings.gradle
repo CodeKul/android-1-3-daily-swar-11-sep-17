@@ -1,1 +1,1 @@
-include ':app', ':sampleapp', ':applib', ':login', ':whatsappscreen', ':layouts'
+include ':app', ':sampleapp', ':applib', ':login', ':whatsappscreen', ':layouts', ':imagething'
