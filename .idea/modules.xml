@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/imagething/imagething.iml" filepath="$PROJECT_DIR$/imagething/imagething.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactivitycommunication/interactivitycommunication.iml" filepath="$PROJECT_DIR$/interactivitycommunication/interactivitycommunication.iml" />
       <module fileurl="file://$PROJECT_DIR$/layouts/layouts.iml" filepath="$PROJECT_DIR$/layouts/layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listview/listview.iml" filepath="$PROJECT_DIR$/listview/listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
       <module fileurl="file://$PROJECT_DIR$/sampleapp/sampleapp.iml" filepath="$PROJECT_DIR$/sampleapp/sampleapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/whatsappscreen/whatsappscreen.iml" filepath="$PROJECT_DIR$/whatsappscreen/whatsappscreen.iml" />
