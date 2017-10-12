@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SimpleValueResources</string>
+
+    <string name="greetings">Hello Globe</string>
+
+    <dimen name="big">30sp</dimen>
+
+    <string-array name="nums">
+        <item>9762548833</item>
+        <item>9762548822</item>
+        <item>9762648143</item>
+    </string-array>
+</resources>
