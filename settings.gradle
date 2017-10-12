@@ -1,1 +1,1 @@
-include ':app', ':sampleapp', ':applib', ':login', ':whatsappscreen', ':layouts', ':imagething', ':interactivitycommunication', ':animations', ':customviews', ':listview', ':alternativeresources', ':activitylifecycle'
+include ':app', ':sampleapp', ':applib', ':login', ':whatsappscreen', ':layouts', ':imagething', ':interactivitycommunication', ':animations', ':customviews', ':listview', ':alternativeresources', ':activitylifecycle', ':runtimechangespart2'
