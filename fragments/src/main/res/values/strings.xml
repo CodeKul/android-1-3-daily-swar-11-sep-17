@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragNm">com.codekul.fragments.ImageFragment</string>
+    <string name="btnCycle">Cycle</string>
+    <string name="btnPlane">Plane</string>
+    <string name="btnBus">Bus</string>
+</resources>
