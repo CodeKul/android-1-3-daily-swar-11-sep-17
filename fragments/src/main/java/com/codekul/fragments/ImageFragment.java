@@ -15,6 +15,17 @@ import android.widget.ImageView;
  */
 public class ImageFragment extends Fragment {
 
+    public static final String KEY_IMG = "img";
+
+    public static ImageFragment getInstance(int img) {
+        ImageFragment frag = new ImageFragment();
+
+        Bundle bnd = new Bundle();
+        bnd.putInt(KEY_IMG, img);
+        frag.setArguments(bnd);
+
+        return frag;
+    }
 
     public ImageFragment() {
         // Required empty public constructor

@@ -33,13 +33,9 @@ public class ButtonFragment extends Fragment {
 
     private void onBus(View view) {
 
-        ImageFragment frag = new ImageFragment();
-
-        Bundle bnd = new Bundle();
-        bnd.putInt("img", R.drawable.ic_buses);
-        frag.setArguments(bnd);
-
-        ((MainActivity) getActivity()).loadFrag(frag);
+        ((MainActivity) getActivity()).loadFrag(
+                ImageFragment.getInstance(R.drawable.ic_buses)
+        );
     }
 
     private void onPlane(View view) {
